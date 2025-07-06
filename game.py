@@ -1,4 +1,3 @@
-# game.py
 import pygame
 
 from Const import WIN_WIDTH, WIN_HEIGHT, MENU_OPTION

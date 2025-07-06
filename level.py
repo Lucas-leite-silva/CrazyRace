@@ -29,8 +29,8 @@ class Level:
         player1_keys = {'right': pygame.K_RIGHT, 'left': pygame.K_LEFT, 'up': pygame.K_UP, 'down': pygame.K_DOWN}
         player2_keys = {'right': pygame.K_d, 'left': pygame.K_a, 'up': pygame.K_w, 'down': pygame.K_s}
 
-        self.player1 = Player('car_1', player1_start_pos, player1_keys)
-        self.player2 = Player('car_2', player2_start_pos, player2_keys)
+        self.player1 = Player('Car_1', player1_start_pos, player1_keys)
+        self.player2 = Player('Car_2', player2_start_pos, player2_keys)
 
         self.entity_list.append(self.player1)
         self.entity_list.append(self.player2)
